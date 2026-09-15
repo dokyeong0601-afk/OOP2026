@@ -62,4 +62,20 @@ public class homework2 {
 }
 ![Alt homework11](./images/homework2.jpg)
 
-//
+```
+## Homework3
+```
+public class Homework3 {
+	public static void main(String []args) {
+		double i = 2;
+		double j = 1;
+		int k;
+		System.out.println(i+"/"+j+"="+i/j);
+		for (k=0; k<19; k++) {
+			i = i + j;
+			j = i - j;
+			System.out.println(i+"/"+j+"="+i/j);
+		}
+	}
+}
+![Alt homework11](./images/homework3.jpg)
