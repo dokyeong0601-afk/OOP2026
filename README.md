@@ -64,7 +64,7 @@ public class homework2 {
 
 ```
 ## Homework3
-```
+``` java
 public class Homework3 {
 	public static void main(String []args) {
 		double i = 2;
