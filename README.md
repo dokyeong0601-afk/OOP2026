@@ -60,6 +60,7 @@ public class homework2 {
 		}
 	}
 }
+```
 ![Alt homework11](./images/homework2.jpg)
 
 ```
@@ -78,4 +79,5 @@ public class Homework3 {
 		}
 	}
 }
+```
 ![Alt homework11](./images/homework3.jpg)
