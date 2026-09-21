@@ -63,7 +63,6 @@ public class homework2 {
 ```
 ![Alt homework11](./images/homework2.jpg)
 
-```
 ## Homework3
 ``` java
 public class Homework3 {
@@ -81,3 +80,23 @@ public class Homework3 {
 }
 ```
 ![Alt homework11](./images/homework3.jpg)
+
+``` java
+public class Homework4 {
+	public static void main(String []args) {
+		int i = 1;
+		int j = 1;
+		int k;
+		for (i=1; i<=9; i++) {
+			for(k=0; k<9; k++) {
+				System.out.print(i+"*"+j+"="+i*j + " ");
+				j++;
+				if (j>9)
+					j=1;
+		}
+			System.out.println();
+	}
+}
+}
+```
+![Alt homework11](./images/homework4.jpg)
