@@ -100,3 +100,26 @@ public class Homework4 {
 }
 ```
 ![Alt homework11](./images/homework4.jpg)
+
+```java
+public class Homework5 {
+	public static void main (String[] args) {
+		int i, sign=1;
+		double sum = 0;
+		for(i=0; i<100; i++) {
+			sum += sign*4.0/(2.0*i+1.0);
+			sign *= -1;
+		}
+		System.out.println(sum);
+		
+		sum=0; //sum 다시 0으로 초기화해주기
+		
+		for(i=0; i<100; i++) {
+			sum += sign*1.0/((2.0*i+1.0)*Math.pow(3.0, i));
+			sign *= -1;
+		}
+		System.out.println(sum*Math.sqrt(12));
+	}
+}
+```
+![Alt homework11](./images/homework5.jpg)
