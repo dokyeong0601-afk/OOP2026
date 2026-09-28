@@ -81,6 +81,7 @@ public class Homework3 {
 ```
 ![Alt homework11](./images/homework3.jpg)
 
+## Homework4
 ``` java
 public class Homework4 {
 	public static void main(String []args) {
@@ -101,6 +102,7 @@ public class Homework4 {
 ```
 ![Alt homework11](./images/homework4.jpg)
 
+## Homework5
 ```java
 public class Homework5 {
 	public static void main (String[] args) {
