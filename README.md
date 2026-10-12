@@ -158,3 +158,37 @@ static void printArray(int n, int binomial[][]) {
 }
 ```
 ![Alt homework11](./images/homework6.jpg)
+
+## Homework7
+``` java
+public class Homework7 {
+	public static void main(String[] args) {
+	int data[] = new int[20];
+	
+	for(int i=0; i<20; i++) {
+	    data[i]=(int)(Math.random()*100);
+	}
+	    
+	for(int i=0; i<20; i++) {
+	    System.out.println(data[i]);
+	}
+	    
+	for(int j=0; j<19; j++) {
+		for(int i=0; i<19-j; i++) {
+			if (data[i] > data[i+1]) {
+				int temp = data[i];
+				data[i] = data[i+1];
+				data[i+1] = temp;
+			}
+		}
+	}
+	System.out.println();
+	
+	for(int i=0; i<20; i++) {
+		System.out.println(data[i]);
+	}
+}
+}
+```
+![Alt homework11](./images/homework7.jpg)
+
